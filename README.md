@@ -2,6 +2,7 @@
   <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/XGBoost-Regressor-EC6C37?style=for-the-badge&logo=xgboost&logoColor=white" alt="XGBoost">
   <img src="https://img.shields.io/badge/Data-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle">
+  <img src="https://img.shields.io/badge/Time%20Series-Forecasting-0EA5E9?style=for-the-badge" alt="Time Series">
   <img src="https://img.shields.io/badge/SHAP-Explainability-4B0082?style=for-the-badge" alt="SHAP">
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License">
 </p>
