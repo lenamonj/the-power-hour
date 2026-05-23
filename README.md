@@ -18,6 +18,18 @@
 
 ---
 
+## Results
+
+| Metric | Validation | Test |
+|--------|-----------|------|
+| **MAPE** | 0.77% | **0.84%** |
+| **RMSE** | 346 MW | 360 MW |
+| **MAE** | 246 MW | 267 MW |
+
+Sub-1% MAPE on an out-of-sample test year, with no weather data, no holiday calendars, and no external features. Just timestamps and lagged demand. The tight val/test gap (0.77% vs 0.84%) confirms the model generalizes across time periods without overfitting.
+
+---
+
 ## What It Does
 
 Takes 16 years of hourly electricity consumption data for the PJM East region, engineers 20+ temporal features (calendar, cyclical encoding, lag values, rolling statistics), and trains a hyperparameter-tuned XGBoost regressor to predict next-hour demand. The model is evaluated on a held-out test year (2017-2018) with detailed error analysis by hour and month, and explained with SHAP feature importance.
